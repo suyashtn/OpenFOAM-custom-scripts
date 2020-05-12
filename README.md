@@ -3,22 +3,22 @@
 Custom python scripts used to post process data in OpenFOAM. They allow analysis of field quantities, evaluation of turbulent kinetic energy (TKE) and related statistics. The structure of this custom package is shown below.
 ```
 OpenFOAM-custom-scripts
-├── [suyashtn   76]  README.md
-├── [suyashtn 1.2K]  setup.py
-└── [suyashtn 4.0K]  src
-    ├── [suyashtn 4.0K]  bin
-    │   ├── [suyashtn 4.0K]  fieldAveraging
-    │   ├── [suyashtn 4.0K]  intLengthScale
-    │   ├── [suyashtn 4.0K]  regionOfSeparation
-    │   ├── [suyashtn 4.0K]  sgsTkePerUnitArea
-    │   ├── [suyashtn 4.0K]  tkePerUnitArea
-    │   ├── [suyashtn 4.0K]  tkeStdDev
-    │   ├── [suyashtn 4.0K]  trackVortices
-    │   └── [suyashtn 4.0K]  twoPointCorr
-    ├── [suyashtn  409]  postProcessConfig
-    └── [suyashtn 4.0K]  readers
-        ├── [suyashtn 2.4K]  reader.py
-        └── [suyashtn 3.4K]  reader_support_functions.py
+├── README.md
+├── setup.py
+└── src
+    ├── bin
+    │   ├── fieldAveraging
+    │   ├── intLengthScale
+    │   ├── regionOfSeparation
+    │   ├── sgsTkePerUnitArea
+    │   ├── tkePerUnitArea
+    │   ├── tkeStdDev
+    │   ├── trackVortices
+    │   └── twoPointCorr
+    ├── postProcessConfig
+    └── readers
+        ├── reader.py
+        └── reader_support_functions.py
 
 ```
 The `src` directory holds the different scripts:
