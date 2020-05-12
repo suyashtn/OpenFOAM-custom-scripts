@@ -1,0 +1,8 @@
+# ignore the directories and subdirectories
+build*
+dist*
+myPostprocess.egg-info*
+__pycache__/
+
+# ignore all backup files 
+*~
