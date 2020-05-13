@@ -45,7 +45,7 @@ git clone https://github.com/suyashtn/OpenFOAM-custom-scripts.git
 ```
 setup and install the scripts
 ```
-cd <you-path-to>/OpenFOAM-custom-scripts
+cd <your-path-to>/OpenFOAM-custom-scripts
 python setup.py install
 ```
 
